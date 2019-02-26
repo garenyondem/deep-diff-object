@@ -1,0 +1,17 @@
+{
+  "name": "deep-diff-object",
+  "version": "1.0.0",
+  "description": "Find deep differences of object from base",
+  "main": "index.js",
+  "dependencies": {
+    "lodash.isequal": "^4.5.0",
+    "lodash.isobject": "^3.0.2",
+    "lodash.transform": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
