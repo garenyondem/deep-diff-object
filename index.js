@@ -1,9 +1,8 @@
-
 const transform = require('lodash.transform');
 const isEqual = require('lodash.isequal');
 const isObject = require('lodash.isobject');
 
-module.exports = function difference(object, base) {
+const difference = (object, base) => {
     function changes(object, base) {
         let arrayIndexCounter = 0;
         return transform(object, function (result, value, key) {
@@ -15,3 +14,5 @@ module.exports = function difference(object, base) {
     }
     return changes(object, base);
 }
+
+module.exports = difference;
